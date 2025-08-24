@@ -1,0 +1,4 @@
+name: research_example
+start_url: "https://example.com"
+goal: "example domain"
+max_steps: 30

@@ -1,0 +1,8 @@
+name: form_example
+start_url: "https://www.w3schools.com/html/html_forms.asp"
+goal: "submit"
+max_steps: 40
+form:
+  - {type: type, selector: "input[name='firstname']", text: "Ada"}
+  - {type: type, selector: "input[name='lastname']", text: "Lovelace"}
+  - {type: click, selector: "button, input[type='submit']"}
